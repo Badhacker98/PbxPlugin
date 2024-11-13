@@ -5,10 +5,10 @@ from . import *
 from . import Pbxbot
 #--------------------------
 
-MUST_JOIN = "PBX_CHAT"
-MUST_JOIN2 = "HEROKUBIN_01"
-MUST_JOIN3 = "ll_THE_BAD_BOT_ll"
-MUST_JOIN4 = "ll_BAD_MUNDA_WORLD_ll"
+MUST_JOIN = "vanshi_support"
+MUST_JOIN2 = "LX_FOREVER"
+MUST_JOIN3 = "xyz_own_world"
+MUST_JOIN4 = "vanshi_network"
 
 #------------------------
 @Pbxbot.bot.on_message(filters.incoming & filters.private, group=-1)
@@ -30,16 +30,16 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("๏Jᴏɪɴ¹๏", url=f"https://t.me/ll_THE_BAD_BOT_ll"),
+                                InlineKeyboardButton("๏Jᴏɪɴ¹๏", url=f"vanshi_network"),
                             ],
                             [
-                            InlineKeyboardButton("๏Jᴏɪɴ²๏", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+                            InlineKeyboardButton("๏Jᴏɪɴ²๏", url=f"https://t.me/xyz_own_world"),
                             ],
                             [
-                            InlineKeyboardButton("๏Jᴏɪɴ³๏", url=link),
+                            InlineKeyboardButton("๏Jᴏɪɴ³๏", url=f"https://t.me/LX_FOREVER),
                             ],
                             [
-                            InlineKeyboardButton("๏Jᴏɪɴ⁴๏", url=f"https://t.me/HEROKUBIN_01")
+                            InlineKeyboardButton("๏Jᴏɪɴ⁴๏", url=f"vanshi_support")
                             ]
                         ]
                     )
